@@ -124,3 +124,15 @@ Catalyst should improve through measured engineering experience.
 #### Optimize the Engineering System
 
 Improve the engineering system before optimizing individual repositories.
+
+## Relationship to Other Standards
+
+AES-000 explains why Catalyst engineers this way.
+
+Subsequent AES standards define what is required.
+
+CAT-SCHEMA defines how information is represented in machine-readable form.
+
+AEMS defines how standards and schemas are evaluated through automation.
+
+Project repositories demonstrate how standards are applied in real engineering work.
