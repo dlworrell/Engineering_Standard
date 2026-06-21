@@ -1,6 +1,6 @@
 # AES-002 Project Zero Standard
 
-Status: Draft
+Status: Draft Complete
 Owner: AES
 Version: 0.1.0
 
@@ -159,3 +159,40 @@ Assessment compares repository evidence against this standard.
 Assessment reports should identify the repository, applicable standards, assessment date, findings, accepted deferrals, and evidence references.
 
 AEMS should automate assessment where practical. Engineering judgment remains with the repository owner or designated engineering authority.
+
+## References
+
+### Normative References
+
+- RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels.
+- AES-001 Repository Lifecycle Standard.
+- AES-003 Repository Manifest Standard. (Forward reference)
+
+### Informative References
+
+- CAT-001 Catalyst Engineering Ecosystem.
+- ISO 9001 - Quality Management Systems.
+- ISO/IEC/IEEE 12207 - Software Life Cycle Processes.
+- ISO/IEC/IEEE 15288 - System Life Cycle Processes.
+
+## Related Specifications
+
+- AES-001 Repository Lifecycle Standard
+- AES-003 Repository Manifest Standard
+- AES-004 Engineering Specification Package Standard
+- CAT-001 Catalyst Engineering Ecosystem
+
+## Revision History
+
+| Version | Status | Description |
+|---|---|---|
+| 0.1.0 | Draft Complete | Initial Project Zero standard. |
+
+## Document Status
+
+Lifecycle: Draft Complete
+Next State: Technical Review
+Owner: AES
+Consumers: AEMS, repo_templates, project repositories
+Supersedes: None
+Superseded By: None
