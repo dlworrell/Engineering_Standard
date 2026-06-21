@@ -1,6 +1,6 @@
 # AES-001 Repository Lifecycle Standard
 
-Status: Draft
+Status: Draft Complete
 Owner: AES
 Version: 0.1.0
 
@@ -100,7 +100,37 @@ repo_templates supports repository bootstrap.
 Project repositories provide lifecycle evidence.
 catylist tracks ecosystem-level lifecycle status.
 
+## References
+
+### Normative References
+
+- RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels.
+
+### Informative References
+
+- CAT-001 Catalyst Engineering Ecosystem.
+- AES-002 Project Zero Standard. (Forward reference)
+- AES-003 Repository Manifest Standard. (Forward reference)
+- ISO 9001 - Quality Management Systems.
+- ISO/IEC/IEEE 12207 - Software Life Cycle Processes.
+- ISO/IEC/IEEE 15288 - System Life Cycle Processes.
+
 ## Related Documents
 
 - CAT-001 Catalyst Engineering Ecosystem
 - CAT-001 Engineering Lifecycle supporting document
+
+## Revision History
+
+| Version | Status | Description |
+|---|---|---|
+| 0.1.0 | Draft Complete | Initial repository lifecycle specification. |
+
+## Document Status
+
+Lifecycle: Draft Complete
+Next State: Technical Review
+Owner: AES
+Consumers: AEMS, repo_templates, project repositories
+Supersedes: None
+Superseded By: None
