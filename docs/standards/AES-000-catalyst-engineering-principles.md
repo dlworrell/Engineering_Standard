@@ -32,3 +32,19 @@ Catalyst treats engineering as a systems discipline.
 Rather than optimizing individual repositories in isolation, Catalyst seeks to improve the engineering system that produces those repositories.
 
 Engineering decisions should reduce future complexity while increasing future capability.
+
+## Decision Framework
+
+When multiple engineering choices satisfy functional requirements, decisions should be evaluated using the following priority:
+
+1. Safety
+2. Correctness
+3. Evidence
+4. Simplicity
+5. Maintainability
+6. Traceability
+7. Automation
+8. Performance
+9. Convenience
+
+Higher priorities take precedence unless an approved Architectural Decision Record explicitly justifies an exception.
