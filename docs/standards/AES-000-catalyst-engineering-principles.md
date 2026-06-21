@@ -24,3 +24,11 @@ These principles exist to guide engineering decisions, provide a common engineer
 ## Scope
 
 These principles apply to Catalyst repositories, including CAT, AES, CAT-SCHEMA, AEMS, repo_template, P0, project repositories, documentation, automation, software, hardware, and FPGA designs.
+
+## Philosophy
+
+Catalyst treats engineering as a systems discipline.
+
+Rather than optimizing individual repositories in isolation, Catalyst seeks to improve the engineering system that produces those repositories.
+
+Engineering decisions should reduce future complexity while increasing future capability.
