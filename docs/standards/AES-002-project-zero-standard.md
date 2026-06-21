@@ -133,3 +133,21 @@ Engineering evidence should be objective, traceable, reproducible, version contr
 Evidence shall remain in, or be traceable to, the repository that produced it.
 
 AEMS should automatically discover, collect, validate, and report Project Zero evidence wherever practical.
+
+## Completion Criteria
+
+Project Zero is complete when applicable requirements are satisfied or accepted deferrals are documented.
+
+A repository shall demonstrate:
+
+- repository inventory,
+- documentation inventory,
+- repository manifest,
+- ownership,
+- lifecycle state,
+- traceability,
+- validation results,
+- engineering evidence,
+- and accepted deferrals, if any.
+
+A repository may be declared Engineering Ready when the required Project Zero evidence exists or accepted deferrals have been approved.
