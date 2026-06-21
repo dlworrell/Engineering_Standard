@@ -45,3 +45,25 @@ A tool, report, workflow, or engineering process that reads the repository manif
 ### Manifest Producer
 
 A human or tool that creates or updates the repository manifest.
+
+## Manifest Structure
+
+A repository manifest should be stored at the repository root unless another location is explicitly documented.
+
+The standard manifest filename is `aes-manifest.yaml`.
+
+The manifest should be YAML-first for human maintenance and compatible with schema-based validation.
+
+The manifest is organized into sections for:
+
+- manifest metadata,
+- repository identity,
+- ownership,
+- lifecycle state,
+- standards conformance,
+- dependencies,
+- Project Zero state,
+- automation state,
+- and evidence references.
+
+AEMS should treat the manifest as the primary machine-readable entry point for repository inspection.
