@@ -45,6 +45,16 @@ A documented exception that permits later work to proceed while explicitly recor
 9. Maintenance
 10. Archive
 
+## Normative Requirements
+
+- A repository shall declare its lifecycle state.
+- A repository shall preserve evidence supporting its lifecycle state.
+- Project Zero shall precede Engineering Ready.
+- Engineering Ready shall require documented evidence or documented accepted deferrals.
+- Lifecycle transitions should be traceable through issues, commits, reviews, or reports.
+- AEMS implementations should inspect lifecycle state from repository data.
+- Accepted deferrals shall identify the deferred requirement and the reason for deferral.
+
 ## Core Rule
 
 A repository should not enter normal implementation work until it is Engineering Ready or has documented accepted deferrals.
