@@ -92,3 +92,19 @@ The key words "shall", "shall not", "should", "should not", and "may" are to be 
 - Project Zero completion shall be supported by objective engineering evidence.
 - Engineering Ready claims shall be supported by documented evidence or accepted deferrals.
 - Compliance with this standard should be independently verifiable from repository state.
+
+## Project Zero Workflow
+
+Project Zero follows this workflow:
+
+1. Observe repository state.
+2. Inventory repository contents.
+3. Classify engineering artifacts.
+4. Organize artifacts according to applicable standards.
+5. Apply required metadata.
+6. Validate repository state.
+7. Document accepted deferrals.
+8. Record certification evidence.
+9. Transition to Engineering Ready when allowed by AES-001.
+
+The workflow shall preserve evidence sufficient to explain the repository state and any accepted deferrals.
