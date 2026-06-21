@@ -48,3 +48,79 @@ When multiple engineering choices satisfy functional requirements, decisions sho
 9. Convenience
 
 Higher priorities take precedence unless an approved Architectural Decision Record explicitly justifies an exception.
+
+## Engineering Principles
+
+### Understanding
+
+#### Observe Before Changing
+
+Observe the existing system before modifying it.
+
+#### Understand Before Improving
+
+Optimization without understanding creates technical debt.
+
+### Engineering Practice
+
+#### Improve Incrementally
+
+Prefer many small, reviewable improvements over infrequent large rewrites.
+
+#### One Logical Change Per Commit
+
+Each commit should represent one coherent engineering change.
+
+#### Standards Before Automation
+
+Automation implements standards. Automation does not define standards.
+
+#### Automation Before Repetition
+
+Repeated engineering activities should be evaluated for automation.
+
+### Information Integrity
+
+#### Git Is the Source of Truth
+
+Repository history constitutes the authoritative engineering record.
+
+#### Preserve Provenance
+
+Engineering history, rationale, authorship, and references should be preserved.
+
+#### Single Source of Authority
+
+Every reusable engineering concept should have one authoritative owner.
+
+#### Traceability
+
+Engineering artifacts should be connected through documented relationships.
+
+#### Reproducibility
+
+Engineering work should be reproducible from repository contents.
+
+### Engineering Judgment
+
+#### Evidence Over Opinion
+
+Engineering decisions should be supported by objective evidence whenever practical.
+
+#### Simplicity
+
+Prefer the simplest solution satisfying engineering requirements.
+
+#### Stewardship
+
+Repositories are long-term engineering assets. Engineers act as stewards rather than temporary owners.
+
+#### Continuous Improvement
+
+Catalyst should improve through measured engineering experience.
+
+### Systems Engineering
+
+#### Optimize the Engineering System
+
+Improve the engineering system before optimizing individual repositories.
